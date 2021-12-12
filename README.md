@@ -123,6 +123,16 @@ Click the terminal icon in the top left region inside the Weston window. This op
 waydroid show-full-ui
 ```
 
-## Got stuck? Need help?
+## Bibliography
 
-Feel free to ask in the Issues.
+This guide has been made possible thanks to these original sources and projects.
+
+1. Waydroid: waydro.id/
+2. Waydroid Script: https://github.com/casualsnek/waydroid_script/
+3. Jon West: https://t.me/WayDroid/49697
+
+## Need help?
+
+Odds are something slipped through at our end.
+
+Creating a bug report, and improving the guide helps the next person who follows the guide.
