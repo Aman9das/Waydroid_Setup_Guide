@@ -104,6 +104,25 @@ sudo systemctl start waydroid-container.service
 waydroid show-full-ui
 ```
 
+## I want to stay on X11 right now
+
+1. Install Weston Compositor:
+```
+sudo apt install weston
+```
+
+2. Launch Weston:
+```
+weston
+```
+
+Click the terminal icon in the top left region inside the Weston window. This opens a terminal window.
+
+3. Launch Waydroid inside Weston
+```
+waydroid show-full-ui
+```
+
 ## Got stuck? Need help?
 
 Feel free to ask in the Issues.
