@@ -49,6 +49,11 @@ make install
 
 1. Follow the install waydroid section : https://docs.waydro.id/usage/install-on-desktops#install-waydroid
 
+If confused with the "bullseye" replacement, check ```VERSION_CODENAME``` in the output of:
+```
+cat /etc/os-release
+```
+
 2. Edit ```sudo nano /etc/gbinder.d/anbox.conf``` to read like:
 ```
 [Protocol]
@@ -136,3 +141,5 @@ This guide has been made possible thanks to these original sources and projects.
 Odds are something slipped through at our end.
 
 Creating a bug report, and improving the guide helps the next person who follows the guide.
+
+[Here](COMPATIBILITY.md) is the list of known incompatible apps.
