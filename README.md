@@ -136,7 +136,7 @@ waydroid show-full-ui
 
 This guide has been made possible thanks to these original sources and projects.
 
-1. Waydroid: waydro.id/
+1. Waydroid: https://waydro.id/
 2. Waydroid Script: https://github.com/casualsnek/waydroid_script/
 3. Jon West: https://t.me/WayDroid/49697
 
