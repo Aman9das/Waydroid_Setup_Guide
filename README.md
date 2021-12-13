@@ -2,6 +2,8 @@
 
 This guide takes you through the process of installing waydroid, and getting arm translation on Linux.
 
+[Here](COMPATIBILITY.md) is the table of app compatibility.
+
 ### System details:
 ```
 
@@ -111,6 +113,8 @@ waydroid show-full-ui
 
 ## I want to stay on X11 right now
 
+Most beginner friendly distros besides Linux Mint Cinnamon do have Wayland pre-installed. Weston can leverage this wayland backend and run Waydroid.
+
 1. Install Weston Compositor:
 ```
 sudo apt install weston
@@ -142,4 +146,4 @@ Odds are something slipped through at our end.
 
 Creating a bug report, and improving the guide helps the next person who follows the guide.
 
-[Here](COMPATIBILITY.md) is the list of known incompatible apps.
+The good folks at the Waydroid [matrix](https://matrix.to/#/#waydroid:connolly.tech) and [telegram](https://t.me/WayDroid) chatrooms are very helpful too, in case you need advanced troubleshooting.
