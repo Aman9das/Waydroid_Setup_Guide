@@ -2,7 +2,7 @@
 
 This guide takes you through the process of installing waydroid, and getting arm translation on Linux.
 
-[COMPATIBILITY.md](COMPATIBILITY.md) is the table of app compatibility. You're requested to report app compatibility results on your system in the issues page.
+[COMPATIBILITY.md](COMPATIBILITY.md) is the table of app compatibility. You're encouraged to request for your favourite apps' compatibility status on the issues page.
 
 <details>
 <summary>
