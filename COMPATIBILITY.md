@@ -22,3 +22,6 @@ App | Test Date | Rating | Status
  Brain It On! | 15th December 2021 | 5 | Mouse support.
  JetPack Joyride | 15th December 2021 | 5 | Mouse support.
  Mini Militia | 15th December 2021 | 4 | Mouse support. no Keyboard support.
+ Real Racing 3 | 15th December 2021 | 1 | Does not launch.
+ BombSquad | 15th December 2021 | 4 | mouse support.
+ Botworld Adventure | 15th December 2021 | 5 | mouse support.
