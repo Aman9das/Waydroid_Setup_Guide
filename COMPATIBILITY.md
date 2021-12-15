@@ -25,3 +25,6 @@ App | Test Date | Rating | Status
  Real Racing 3 | 15th December 2021 | 1 | Does not launch.
  BombSquad | 15th December 2021 | 4 | mouse support.
  Botworld Adventure | 15th December 2021 | 5 | mouse support.
+ Armajet | 15th December 2021 | 4 | mouse support.
+ Alto's Adventure + Oddysee | 15th December 2021 | 4 | mouse support except at "tap to continue" prompts. ```adb shell input tap 400 400``` needed.
+ 
