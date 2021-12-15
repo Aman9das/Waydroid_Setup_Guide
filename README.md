@@ -2,9 +2,13 @@
 
 This guide takes you through the process of installing waydroid, and getting arm translation on Linux.
 
-[Here](COMPATIBILITY.md) is the table of app compatibility.
+[COMPATIBILITY.md](COMPATIBILITY.md) is the table of app compatibility. You're requested to report app compatibility results on your system in the issues page.
 
-### System details:
+<details>
+<summary>
+<h3>System details:<h3>
+</summary>
+
 ```
 
 OS: Zorin OS 16 x86_64
@@ -16,8 +20,12 @@ CPU: Intel i3-7020U (4) @ 2.300GHz
 GPU: Intel HD Graphics 620
 Memory: 3812MiB
 ```
+</details>
 
-## Pre-requisites:
+<details>
+<summary>
+<h2>Pre-requisites:</h2>
+</summary>
 
 1. Follow the pre-requisites section: https://docs.waydro.id/usage/install-on-desktops#install-pre-requisites
 
@@ -47,7 +55,9 @@ make install
 
 7. Copy the new ```libgbinder.so.1```, ```libgbinder.so.1.1``` and ```libgbinder.so.1.1.14``` files added to /usr/lib to wherever your system has the current libgbinder installed. Use ```dpkg -L libgbinder``` to find out.
 
-## Install Waydroid
+</details>
+<details>
+<summary><h2>Install Waydroid</h2></summary>
 
 1. Follow the install waydroid section : https://docs.waydro.id/usage/install-on-desktops#install-waydroid
 
@@ -77,8 +87,11 @@ ApiLevel = 30
 sudo systemctl restart waydroid-container.service
 waydroid show-full-ui
 ```
-
-## Arm Translation
+</details>
+<details>
+<summary>
+<h2>Arm Translation</h2>
+</summary>
 
 1. Install lzip:
 ```
@@ -110,8 +123,11 @@ sudo systemctl start waydroid-container.service
 ```
 waydroid show-full-ui
 ```
-
-## I want to stay on X11 right now
+</details>
+<details>
+<summary>
+<h2>I want to stay on X11 right now</h2>
+</summary>
 
 Most beginner friendly distros besides Linux Mint Cinnamon do have Wayland pre-installed. Weston can leverage this wayland backend and run Waydroid.
 
@@ -131,6 +147,10 @@ Click the terminal icon in the top left region inside the Weston window. This op
 ```
 waydroid show-full-ui
 ```
+
+You may need to ```sudo waydroid container restart``` to restart the android image before launching inside weston.
+</details>
+<br>
 
 ## Bibliography
 
