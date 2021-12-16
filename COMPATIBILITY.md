@@ -3,6 +3,7 @@
 
 App | Test Date | Rating | Status
 ---------|----------|---------|---------
+ Tachiyomi / Aniyomi | 16th December 2021 | 5 | arm64 version support. extensions to be installed separately.
  Clash Royale | 12th December 2021 | 1 | Brief flash
  Shadow Fight 2 | 12th December 2021 | 3 | Mouse support. No Keyboard support.
  Hill Climb Racing | 12th December 2021 | 5 | Mouse support
@@ -30,3 +31,5 @@ App | Test Date | Rating | Status
  Episode | 15th December 2021 | 4 | mouse support. bad landscape scaling.
  Magic Arena | 16th December 2021 | 1 | Assets not visible
  Super Auto Pets | 16th December 2021 | 5 | mouse support.
+ Hocus | 16th December 2021 | 5 | Mouse support.
+ Fiete World | 16th December 2021 | 3 | No mouse support. Touchscreen needed.
