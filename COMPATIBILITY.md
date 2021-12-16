@@ -16,7 +16,7 @@ App | Test Date | Rating | Status
  Plants vs Zombies 2 | 14th December 2021 | 1 | Game does not load due to absence of Google Services
  C.A.T.S. | 14th December 2021 | 5 | Mouse support
  Explorers | 14th December 2021 | 4 | Mouse support. no Keyboard support
- My Talking Tom | 14th December 2021 | 5 | Mouse support.
+ My Talking Tom | 14th December 2021 | 4 | Mouse support. bad landscape scaling
  Steampunk Defense | 15th December 2021 | 5 | Mouse support.
  Among Us | 15th December 2021 | 1 | Black screen with audio.
  Brain It On! | 15th December 2021 | 5 | Mouse support.
@@ -27,4 +27,6 @@ App | Test Date | Rating | Status
  Botworld Adventure | 15th December 2021 | 5 | mouse support.
  Armajet | 15th December 2021 | 4 | mouse support.
  Alto's Adventure + Oddysee | 15th December 2021 | 4 | mouse support except at "tap to continue" prompts. ```adb shell input tap 400 400``` needed.
- 
+ Episode | 15th December 2021 | 4 | mouse support. bad landscape scaling.
+ Magic Arena | 16th December 2021 | 1 | Assets not visible
+ Super Auto Pets | 16th December 2021 | 5 | mouse support.

@@ -160,6 +160,8 @@ This guide has been made possible thanks to these original sources and projects.
 2. Waydroid Script: https://github.com/casualsnek/waydroid_script/
 3. Jon West: https://t.me/WayDroid/49697
 
+## [Want to Contribute?](COMPATIBILITY.md)
+
 ## Need help?
 
 Odds are something slipped through at our end.
