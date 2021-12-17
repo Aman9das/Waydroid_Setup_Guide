@@ -166,7 +166,7 @@ This guide has been made possible thanks to these original sources and projects.
 2. Waydroid Script: https://github.com/casualsnek/waydroid_script/
 3. Jon West: https://t.me/WayDroid/49697
 
-## [Want to Contribute?](COMPATIBILITY.md)
+## [Want to Contribute?](CONTRIBUTING.md)
 
 ## Need help?
 
