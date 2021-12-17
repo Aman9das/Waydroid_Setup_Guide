@@ -87,6 +87,12 @@ ApiLevel = 30
 sudo systemctl restart waydroid-container.service
 waydroid show-full-ui
 ```
+You may need to sign ashmem_linux manually for secure boot. <details><summary>error details</summary>```modprobe: ERROR: could not insert 'ashmem_linux': Operation not permitted```</details>
+```
+sudo update-secureboot-policy --new-key
+sudo /usr/src/linux-headers-$(uname -r)/scripts/sign-file sha256 /var/lib/shim-signed/mok/MOK.priv /var/lib/shim-signed/mok/MOK.der $(modinfo -n ashmem_linux)
+```
+
 </details>
 <details>
 <summary>
