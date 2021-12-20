@@ -44,4 +44,6 @@ App | Test Date | Rating | Status
  Hocus | 16th December 2021 | 5 | Mouse support.
  Fiete World | 16th December 2021 | 3 | No mouse support.
  Angry Birds Friends | 17th December 2021 | 3 | No mouse input.
- 
+ Grow Castle | 17th December 2021 | 5 | mouse support.
+ Yeah Bunny! | 19th December 2021 | 5 | mouse support
+ Plague Inc. | 19th December 2021 | 5 | mouse support
