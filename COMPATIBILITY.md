@@ -48,3 +48,5 @@ App | Test Date | Rating | Status
  Yeah Bunny! | 19th December 2021 | 5 | mouse support
  Plague Inc. | 19th December 2021 | 5 | mouse support
  8 Ball Pool | 21st December 2021 | 5 | mouse support
+ Mekorama | 21st December 2021 | 5 | mouse support. crashed 1 time.
+ 

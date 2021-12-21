@@ -46,7 +46,7 @@ rmdir temp_folder
 
 6. Get the latest libgbinder updates:
 ```
-sudo apt install git libglib2.0-dev libglibutil-dev
+sudo apt install git libglib2.0-dev libglibutil-dev gcc
 git clone --depth=1 https://github.com/mer-hybris/libgbinder
 cd libgbinder
 make
