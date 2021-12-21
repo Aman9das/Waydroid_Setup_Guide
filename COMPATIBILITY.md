@@ -47,3 +47,4 @@ App | Test Date | Rating | Status
  Grow Castle | 17th December 2021 | 5 | mouse support.
  Yeah Bunny! | 19th December 2021 | 5 | mouse support
  Plague Inc. | 19th December 2021 | 5 | mouse support
+ 8 Ball Pool | 21st December 2021 | 5 | mouse support

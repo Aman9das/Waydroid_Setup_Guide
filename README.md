@@ -66,6 +66,8 @@ If confused with the "bullseye" replacement, check ```VERSION_CODENAME``` in the
 cat /etc/os-release
 ```
 
+```impish``` users need not replace ```bullseye```
+
 2. Edit ```sudo nano /etc/gbinder.d/anbox.conf``` to read like:
 ```
 [Protocol]
