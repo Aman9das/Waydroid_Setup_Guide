@@ -31,6 +31,8 @@ Memory: 3812MiB
 
 2. Download lineageOS system images archive from SourceForge: https://sourceforge.net/projects/blissos-dev/files/waydroid/lineage/lineage-18.1/
 
+(Use a download manager like [fireDM](https://github.com/firedm/FireDM) in case of slow download speeds)
+
 3. Create the system images directory:
 ```
 sudo mkdir -p /usr/share/waydroid-extra/images
@@ -164,9 +166,9 @@ You may need to ```sudo waydroid container restart``` to restart the android ima
 
 This guide has been made possible thanks to these original sources and projects.
 
-1. Waydroid: https://waydro.id/
-2. Waydroid Script: https://github.com/casualsnek/waydroid_script/
-3. Jon West: https://t.me/WayDroid/49697
+1. Jon West: https://t.me/WayDroid/55770 (Major Source)
+2. Waydroid: https://waydro.id/
+3. Waydroid Script: https://github.com/casualsnek/waydroid_script/
 4. BlissOS: https://blissos.org/
 
 ## [Want to Contribute?](CONTRIBUTING.md)
