@@ -29,7 +29,7 @@ Memory: 3812MiB
 
 1. Follow the pre-requisites section: https://docs.waydro.id/usage/install-on-desktops#install-pre-requisites
 
-2. Download lineageOS system images archive from Google Drive: https://drive.google.com/file/d/1sXxng8ALWEK3Yjg4BVvU_Xy1NJcUdFV1/view?usp=drivesdk
+2. Download lineageOS system images archive from SourceForge: https://sourceforge.net/projects/blissos-dev/files/waydroid/lineage/lineage-18.1/
 
 3. Create the system images directory:
 ```
@@ -167,6 +167,7 @@ This guide has been made possible thanks to these original sources and projects.
 1. Waydroid: https://waydro.id/
 2. Waydroid Script: https://github.com/casualsnek/waydroid_script/
 3. Jon West: https://t.me/WayDroid/49697
+4. BlissOS: https://blissos.org/
 
 ## [Want to Contribute?](CONTRIBUTING.md)
 
