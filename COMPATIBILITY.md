@@ -1,11 +1,12 @@
 # A table of App Rating
 
+This table logs the user experience of using various apps on Waydroid. Many factors affect this like Waydroid, vulkan, libhoudini arm translation, the developer's intended input method and Google Play integration.
 
 Rating | Experience
 ---------|----------
  1 | Does not launch
  2 | Google Play services required.
- 3 | Touch mapping needed to be playable on mouse and keyboard.
+ 3 | No mouse support.
  4 | Subpar experience on mouse and keyboard.
  5 | Good experience on mouse and keyboard.
 
@@ -49,4 +50,4 @@ App | Test Date | Rating | Status
  Plague Inc. | 19th December 2021 | 5 | mouse support
  8 Ball Pool | 21st December 2021 | 5 | mouse support
  Mekorama | 21st December 2021 | 5 | mouse support. crashed 1 time.
- 
+ Beach Buggy Racing | 23rd December 2021 | 4 | mouse support, keymapping required for playability

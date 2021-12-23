@@ -122,7 +122,7 @@ cd waydroid_script
 sudo python3 waydroid_extras.py -l
 ```
 
-You may need to ```umount /dev/loop12`` and ```waydroid session stop``` for Libhoudini to install.
+You may need to ```umount /dev/loop12``` and ```waydroid session stop``` for Libhoudini to install.
 
 4. Restart Waydroid Container:
 ```
