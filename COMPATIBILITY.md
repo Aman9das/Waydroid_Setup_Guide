@@ -50,4 +50,8 @@ App | Test Date | Rating | Status
  Plague Inc. | 19th December 2021 | 5 | mouse support
  8 Ball Pool | 21st December 2021 | 5 | mouse support
  Mekorama | 21st December 2021 | 5 | mouse support. crashed 1 time.
- Beach Buggy Racing | 23rd December 2021 | 4 | mouse support, keymapping required for playability
+ Beach Buggy Racing 1 + 2 | 23rd December 2021 | 4 | mouse support, keymapping required for playability
+ Coin Master | 23rd December 2021 | 1 | Stuck at startup.
+ Smash Hit | 24th December 2021 | 5 | Mouse support.
+ Candy Crush Saga | 25th December 2021 | 5 | Mouse support.
+ Angry Birds 2 | 25th December 2021 | 1 | Stuck at Startup.
