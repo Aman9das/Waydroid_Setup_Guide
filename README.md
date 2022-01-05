@@ -46,7 +46,11 @@ sudo mv temp_folder/* /usr/share/waydroid-extra/images
 rmdir temp_folder
 ```
 
-6. Get the latest libgbinder updates:
+6. Follow the install waydroid section upto adding waydroid repo to sources.list : https://docs.waydro.id/usage/install-on-desktops#install-waydroid
+
+```impish``` users may use ```hirsute``` in plase of ```bullseye```
+
+7. Get the latest libgbinder updates:
 ```
 sudo apt install git libglib2.0-dev libglibutil-dev gcc
 git clone --depth=1 https://github.com/mer-hybris/libgbinder
@@ -55,20 +59,13 @@ make
 make install
 ```
 
-7. Copy the new ```libgbinder.so.1```, ```libgbinder.so.1.1``` and ```libgbinder.so.1.1.14``` files added to /usr/lib to wherever your system has the current libgbinder installed. Use ```dpkg -L libgbinder``` to find out.
+8. Copy the new ```libgbinder.so.1```, ```libgbinder.so.1.1``` and ```libgbinder.so.1.1.14``` files added to /usr/lib to wherever your system has the current libgbinder installed. Use ```dpkg -L libgbinder``` to find out.
 
 </details>
 <details>
 <summary><h2>Install Waydroid</h2></summary>
 
-1. Follow the install waydroid section : https://docs.waydro.id/usage/install-on-desktops#install-waydroid
-
-If confused with the "bullseye" replacement, check ```VERSION_CODENAME``` in the output of:
-```
-cat /etc/os-release
-```
-
-```impish``` users need not replace ```bullseye```
+1. Follow the rest of install waydroid section : https://docs.waydro.id/usage/install-on-desktops#install-waydroid
 
 2. Edit ```sudo nano /etc/gbinder.d/anbox.conf``` to read like:
 ```
