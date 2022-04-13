@@ -6,19 +6,13 @@ This guide takes you through the process of installing waydroid, and getting arm
 
 <details>
 <summary>
-<h3>System details:<h3>
+<h3>Tested System Details:<h3>
 </summary>
 
 ```
-
-OS: Zorin OS 16 x86_64
-Kernel: 5.11.0-41-generic
-DE: GNOME
-WM: Mutter
-Terminal: gnome-terminal
-CPU: Intel i3-7020U (4) @ 2.300GHz
-GPU: Intel HD Graphics 620
-Memory: 3812MiB
+OS: Zorin OS 16, Ubuntu 20.04, Arch
+Kernel: 5.11.0, 5.16.16
+CPU: Intel i3-7020U, Intel i7-1065G7
 ```
 </details>
 
@@ -29,7 +23,7 @@ Memory: 3812MiB
 
 1. Follow the pre-requisites section: https://docs.waydro.id/usage/install-on-desktops#install-pre-requisites
 
-2. Download lineageOS system images archive from SourceForge: https://sourceforge.net/projects/blissos-dev/files/waydroid/lineage/lineage-18.1/
+2. Download lineageOS android 11 system images archive from SourceForge: https://sourceforge.net/projects/blissos-dev/files/waydroid/lineage/lineage-18.1/
 
 (Use a download manager like [fireDM](https://github.com/firedm/FireDM) in case of slow download speeds)
 
@@ -42,15 +36,17 @@ sudo mkdir -p /usr/share/waydroid-extra/images
 
 5. Move the contents of the ```temp_folder``` to system images directory:
 ```
-sudo mv temp_folder/* /usr/share/waydroid-extra/images
-rmdir temp_folder
+sudo mv ~/temp_folder/* /usr/share/waydroid-extra/images
+rmdir ~/temp_folder
 ```
 
-6. Follow the install waydroid section upto adding waydroid repo to sources.list : https://docs.waydro.id/usage/install-on-desktops#install-waydroid
+6. Debian based users must also:
 
-```impish``` users may use ```hirsute``` in plase of ```bullseye```
+- follow the install waydroid section upto adding waydroid repo to sources.list : https://docs.waydro.id/usage/install-on-desktops#install-waydroid
 
-7. Get the latest libgbinder updates:
+```impish``` users may use ```hirsute``` in place of ```bullseye```
+
+- get the latest libgbinder updates:
 ```
 sudo apt install git libglib2.0-dev libglibutil-dev gcc
 git clone --depth=1 https://github.com/mer-hybris/libgbinder
@@ -58,14 +54,15 @@ cd libgbinder
 make
 make install
 ```
-
-8. Copy the new ```libgbinder.so.1```, ```libgbinder.so.1.1``` and ```libgbinder.so.1.1.14``` files added to /usr/lib to wherever your system has the current libgbinder installed. Use ```dpkg -L libgbinder``` to find out.
+- copy the new ```libgbinder.so.1```, ```libgbinder.so.1.1``` and ```libgbinder.so.1.1.xx``` files added to /usr/lib to wherever your system has the current libgbinder installed. Use ```dpkg -L libgbinder``` to find out.
 
 </details>
 <details>
 <summary><h2>Install Waydroid</h2></summary>
 
-1. Follow the rest of install waydroid section : https://docs.waydro.id/usage/install-on-desktops#install-waydroid
+1. Install waydroid
+- Arch users follow: https://wiki.archlinux.org/title/Waydroid
+- Debian users follow the rest of install waydroid section : https://docs.waydro.id/usage/install-on-desktops#install-waydroid
 
 2. Edit ```sudo nano /etc/gbinder.d/anbox.conf``` to read like:
 ```
@@ -88,11 +85,12 @@ ApiLevel = 30
 sudo systemctl restart waydroid-container.service
 waydroid show-full-ui
 ```
-You may need to sign ashmem_linux manually for secure boot. <details><summary>error details</summary>```modprobe: ERROR: could not insert 'ashmem_linux': Operation not permitted```</details>
+You may need to sign ashmem_linux manually for secure boot. <details><summary>Unsigned ashmem_linux error:</summary>```modprobe: ERROR: could not insert 'ashmem_linux': Operation not permitted```
 ```
 sudo update-secureboot-policy --new-key
 sudo /usr/src/linux-headers-$(uname -r)/scripts/sign-file sha256 /var/lib/shim-signed/mok/MOK.priv /var/lib/shim-signed/mok/MOK.der $(modinfo -n ashmem_linux)
 ```
+</details>
 
 </details>
 <details>
@@ -101,9 +99,9 @@ sudo /usr/src/linux-headers-$(uname -r)/scripts/sign-file sha256 /var/lib/shim-s
 </summary>
 
 1. Install lzip:
-```
-sudo apt install lzip
-```
+
+- Debian: `sudo apt install lzip`
+- Arch: `sudo pacman -S lzip`
 
 2. Install Waydroid Extras Script:
 ```
@@ -113,13 +111,13 @@ sudo python3 -m pip install -r requirements.txt
 sudo python3 waydroid_extras.py -h
 ```
 
-3. Install Libhoudini arm Translation:
+3. Install Libhoudini ARM Translation:
 ```
 cd waydroid_script
 sudo python3 waydroid_extras.py -l
 ```
 
-You may need to ```umount /dev/loop12``` and ```waydroid session stop``` for Libhoudini to install.
+You may need to ```umount -a``` and ```waydroid session stop``` for Libhoudini to install.
 
 4. Restart Waydroid Container:
 ```
