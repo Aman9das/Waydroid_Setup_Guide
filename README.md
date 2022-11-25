@@ -1,3 +1,5 @@
+# Archiving, as waydroid now defaults to Android 11. Just use https://github.com/casualsnek/waydroid_script to enable libhoudini.
+
 # Waydroid Guide
 
 This guide takes you through the process of installing waydroid, and getting arm translation on Linux.
